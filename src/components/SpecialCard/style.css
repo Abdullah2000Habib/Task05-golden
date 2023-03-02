@@ -1,0 +1,25 @@
+.specialCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    background-color: rgba(160, 128, 64, .3);
+    padding: 3rem;
+    color: white;
+    border: 1px dashed #ffce6d;
+    height: 70vh;
+}
+
+.specialCardWrapper .specialCardTitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.specialCardDescription {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.7;
+}

@@ -1,0 +1,9 @@
+.mainButton {
+    width: 13rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid #fffccc;
+    color: #fefefe;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

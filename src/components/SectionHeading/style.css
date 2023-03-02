@@ -1,0 +1,26 @@
+.sectionHeadingWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.sectionHeadingWrapper .title {
+    font-family: 'Dancing Script';
+    color: #ffbe35;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.sectionHeadingWrapper .title.toggle {
+    color: white;
+}
+
+.sectionHeadingWrapper .description {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.sectionHeadingWrapper .description.toggle {
+    color: #ffbe35;
+}
