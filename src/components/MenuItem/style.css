@@ -1,0 +1,28 @@
+.menuItemWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: white;
+    width: 45%;
+}
+
+.menuItemDetails>span {
+    font-weight: bold;
+}
+
+.menuItemDetails>p {
+    font-size: 0.8rem;
+}
+
+.menuItemLine {
+    width: 20%;
+    height: 2px;
+    background-color: #ffbe35;
+}
+
+.menuItemCode {
+    color: #ffbe35;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

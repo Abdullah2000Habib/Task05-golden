@@ -1,0 +1,26 @@
+.stuffItemWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+
+.stuffItemDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.stuffItemDescription>:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffbe35;
+}
+
+.stuffItemDescription>:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
