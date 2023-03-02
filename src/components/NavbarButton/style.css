@@ -1,0 +1,31 @@
+.navbarBtn {
+    width: 17rem;
+    padding: 1.7rem;
+    color: white;
+    background-color: #a08040;
+    cursor: pointer;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    position: relative;
+    margin-left: 10px;
+}
+
+.navbarBtn::after,
+.navbarBtn::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbarBtn::after {
+    right: 10%;
+}
+
+.navbarBtn::before {
+    left: 10%;
+}
