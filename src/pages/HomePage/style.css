@@ -111,3 +111,24 @@
     left: 0;
     background-color: #0b0e11ee;
 }
+
+.section4 {
+    height: 120vh;
+    background-image: url('../../assets/images/sections-image.png');
+    background-size: 101%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 4rem 0;
+}
+
+.section4Menus {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
