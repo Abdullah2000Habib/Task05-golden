@@ -12,19 +12,19 @@ class Navbar extends Component {
                     <Logo logo={logo}/>
                     <ul className='navbarList'>
                         <li className='navbarItem'>
-                            <a className='navbarLink' href='/#'>Home</a>
+                            <a className='navbarLink' href='/#Home'>Home</a>
                         </li>
                         <li className='navbarItem'>
-                            <a className='navbarLink' href='/#'>About</a>
+                            <a className='navbarLink' href='/#About'>About</a>
                         </li>
                         <li className='navbarItem'>
-                            <a className='navbarLink' href='/#'>Special</a>
+                            <a className='navbarLink' href='/#Special'>Special</a>
                         </li>
                         <li className='navbarItem'>
-                            <a className='navbarLink' href='/#'>Menu</a>
+                            <a className='navbarLink' href='/#Menu'>Menu</a>
                         </li>
                         <li className='navbarItem'>
-                            <a className='navbarLink' href='/#'>Blogs</a>
+                            <a className='navbarLink' href='/#Blogs'>Blogs</a>
                         </li>
                         <li className='navbarItem'>
                             <img className='navbarSearch' src={search} alt='search'/>
