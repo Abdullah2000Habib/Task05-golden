@@ -1,7 +1,6 @@
 .sectionHeadingWrapper {
     display: flex;
     flex-direction: column;
-    background-color: black;
 }
 
 .sectionHeadingWrapper .title {

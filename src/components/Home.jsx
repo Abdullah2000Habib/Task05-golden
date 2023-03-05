@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import FooterInfo from './FooterInfo/FooterInfo';
 // import BlogCard from './BlogCard/BlogCard';
 // import ReviewCard from './ReviewCard/ReviewCard';
 // import StuffItem from './StuffItem/StuffItem';
@@ -13,7 +12,8 @@ import FooterInfo from './FooterInfo/FooterInfo';
 // import stuffImg from "../assets/images/staff/dish.png";
 // import person from "../assets/images/Ellipse.png";
 // import blogImg from "../assets/images/blogs/blog-image1.png";
-import footerInfoImg from "../assets/images/contacts/message.png";
+// import footerInfoImg from "../assets/images/contacts/message.png";
+import HomePage from '../pages/HomePage/HomePage';
 class Home extends Component {
 render() {
     return (
@@ -26,7 +26,12 @@ render() {
         {/* <StuffItem img={stuffImg} title='Delicacyd sjfns' number='10' /> */}
         {/* <ReviewCard img={person} name='Alex andrina' description='Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sollicitudin Hendrerit A Amet Viverra. Nunc Pretium In Amet At Mattis Cras. Quisque Commodo Mattis Ornare A Nec Odio. Pulvinar Orci, Egestas Eget Nulla Duis At Iaculis Nunc, El'/> */}
         {/* <BlogCard img={blogImg} toggle={true} title='Cooking Dining Experience' body='Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sollicitudin'/> */}
-        <FooterInfo img={footerInfoImg} title='Gogreendineservice@Gmail.Com'/>
+        {/* <FooterInfo img={footerInfoImg} title='Gogreendineservice@Gmail.Com'/> */}
+        {/* <Container>
+        <FoodSection title='About Us' description='Discover The Taste Of Worldclass Vegan Dishes From The Kitchen Of Go Green Dine'  body='Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sollicitudin Hendrerit A Amet Viverra. Nunc Pretium In Amet At Mattis Cras. Quisque Commodo Mattis Ornare A Nec Odio. Pulvinar Orci, Egestas Eget Nulla Duis At Iaculis Nunc, Elit. Nibh Auctor Purus Nunc Tellus Pellentesque Nibh Mattis. Malesuada Integer Consectetur. Imperdiet Aliquam Quam Mauris Semper Suscipit. Molestie Maecenas Interdum Pharetra Id Velit Sed Nec.Tetur Sit Sagittis Pretium Eget Vitae Semper Pellentesque Pellentesque.' btnName='Read more' img={foodSectionImg}/>
+        </Container> */}
+        <HomePage/>
+            
     </>
     )
 }
