@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import foodSectionImg from "../../assets/images/about-image.png";
+import gift1 from "../../assets/images/golden1.png";
+import gift2 from "../../assets/images/golden2.png";
 import menuFood1 from "../../assets/images/menu/menu1.png";
 import menuFood10 from "../../assets/images/menu/menu10.png";
 import menuFood11 from "../../assets/images/menu/menu11.png";
@@ -71,6 +73,25 @@ render() {
                     </div>
                 </Container>
             </div>
+            <div className='section5'>
+
+                <div className='section3Heading'>
+                            <SectionHeading title='Come join us for a lunch this weekend and enjoy' description='FLAT 10% OFF' toggle={true}/>
+                </div>
+                <div className='section5Btn'>
+                    <Button title='Book Table'/>
+                </div>
+                    
+                <div className='section5Imgs1'>
+                    <img src={gift1} alt=''/>
+                    <img src={gift2} alt=''/>
+                </div>
+                <div className='section5Imgs2'>
+                    <img src={gift1} alt=''/>
+                    <img src={gift2} alt=''/>
+                </div>
+            </div>
+
         </>
     )
 }

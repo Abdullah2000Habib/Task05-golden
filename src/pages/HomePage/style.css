@@ -132,3 +132,61 @@
     gap: 3rem;
     flex-wrap: wrap;
 }
+
+
+.section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    height: 50vh;
+    background-image: url('../../assets/images/sections-image.png');
+    background-size: 101%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.section5::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0b0e11ee;
+}
+
+.section5Imgs1 {
+    position: relative;
+    position: absolute;
+    left: 8rem;
+}
+
+
+
+.section5Imgs1>:nth-child(2) {
+    position: absolute;
+    left: 70px;
+}
+
+.section5Imgs2 {
+    position: relative;
+    position: absolute;
+    right: 8rem;
+}
+
+.section5Imgs2>:nth-child(2) {
+    position: absolute;
+    left: 70px;
+}
+
+.section3Heading>div>:nth-child(1) {
+    width: 30rem;
+}
+
+.section5Btn {
+    z-index: 1;
+}
